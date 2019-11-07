@@ -1,0 +1,217 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+html {
+	background: #1C1C1C;
+}
+
+body {		
+		background: #1C1C1C; 
+		
+}
+ 
+
+header {
+		max-width: 1050px;
+		min-height: 130px;
+		margin: 0 auto;	
+		border-radius: 20px 20px 0 0;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a0e0a+49,6e7774+99,aebcbf+100 */
+		background: #0a0e0a; /* Old browsers */
+		background: -moz-linear-gradient(45deg, #0a0e0a 49%, #6e7774 99%, #aebcbf 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(45deg, #0a0e0a 49%,#6e7774 99%,#aebcbf 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(45deg, #0a0e0a 49%,#6e7774 99%,#aebcbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0e0a', endColorstr='#aebcbf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+	
+}
+
+#banner
+	{ 
+		width: 1050px;
+		min-height: 300px;
+		background: #fff;
+		margin: 0 auto;
+	}
+
+#main {
+			
+		max-width: 1050px;
+		min-height: 200px;
+		background: gray;
+		margin: 0 auto;	
+	
+		
+}
+
+#main #noticias {
+
+		width: 250px;
+		min-height: 400px;
+		text-align: center;
+		color: black;
+		background: white;
+		float: left;
+		font-family: arial;
+		
+	}
+
+
+#main #contenido	{
+		width: 800px;
+		min-height: 400px;
+		background: #fff;
+		float: right;
+		font-family: arial;
+	}
+
+
+#main #noticias-p {
+
+		width: 200px;
+		min-height: 700px;
+		text-align: center;
+		color: black;
+		background: white;
+		float: left;
+		font-family: arial;
+		
+	}
+
+
+#main #contenido-p	{
+		width: 850px;
+		min-height: 700px;
+		background: #fff;
+		float: right;
+		font-family: arial;
+	}
+
+#main #noticias-c {
+
+		width: 200px;
+		min-height: 800px;
+		text-align: center;
+		color: black;
+		background: white;
+		float: left;
+		font-family: arial;
+		
+	}
+
+
+#main #contenido-c	{
+		width: 850px;
+		min-height: 800px;
+		background: #fff;
+		float: right;
+		font-family: arial;
+	}
+
+#logo
+	{
+		width: 320;
+		float: left;
+		margin-top: 20px;
+		margin-left: 20px;
+
+	}
+
+/*MENU HORIZONTAL*/
+#menu
+	{
+		max-width: 1050px;
+		min-height: 50px;
+		background: #000;
+		margin: 0 auto;
+	}
+
+#menu ul
+	{
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+
+#menu a
+	{
+		color: red;
+		display: block;
+		padding: 20px;
+		text-decoration: none;
+		background: #000;
+		font-family: arial;
+		font-size: 18px;
+	}
+
+#menu a: hover
+	{
+		background: #069;
+	}
+	
+#menu ul ul
+	{
+		display: none;
+		position: absolute;
+	}
+
+#menu ul li: hover ul
+	{
+		display: block;
+
+	}
+	
+
+footer
+	{
+		max-width: 1050px;
+		min-height: 100px;
+		background: #000;
+		margin: 0 auto;
+		border-radius: 0 0 20px 20px;
+		color: white;
+		text-align: center;
+	}
+
+form 
+	{
+		width: 750px;
+		margin: auto;
+		background: #DDD;
+		padding: 20px;
+		margin-top:10px;
+		color: black;
+		border: 10px solid black;
+	}	
+	
+label, input, select
+	{
+		display: block;
+		width: 100%;
+		font-size: 1.2em;
+	}
+
+input [type="submit"] 
+	{
+		width: 30%;
+		margin: auto;
+		background: #333;
+		color: white;
+		padding: 2px;
+		border: solid 4px black;
+		cursor: pointer;
+	}
+
+	h2, h3, h4 {
+		color: red;
+		font-family: arial;
+        text-align: center;
+	}
+
+	h5 {
+		color: white;
+		font-family: arial;
+	}
